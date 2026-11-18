@@ -1,0 +1,78 @@
+\documentclass{apmcmthesis}
+
+\usepackage{url}
+\usepackage{indentfirst}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{import}
+
+% Verilog 代码样式，正文用 \begin{lstlisting}[style=vcode] ... \end{lstlisting}
+\lstdefinestyle{vcode}{
+  language=Verilog,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue}\bfseries,
+  commentstyle=\color{gray}\itshape,
+  stringstyle=\color{purple},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  frame=single,
+  rulecolor=\color{gray},
+  breaklines=true,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  tabsize=4,
+  captionpos=b
+}
+
+%%%%%%%%%%%%填写相关信息%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\pagestyle{frontmatterstyle}
+
+
+
+
+\newpage
+%目录
+\tableofcontents
+
+
+\newpage
+\pagestyle{mainmatterstyle}
+\setcounter{page}{1}
+
+
+\section{实验目的}
+\import{sections/purpose/}{purpose.tex}
+
+
+\section{实验1}
+\import{sections/ex1/}{all.tex}
+
+
+\section{实验2}
+\import{sections/ex2/}{all.tex}
+
+\section{实验3}
+\import{sections/ex3/}{all.tex}
+
+\section{实验4}
+\import{sections/ex4/}{all.tex}
+
+
+\section{实验感悟}
+\import{sections/conclusion/}{conclusion.tex}
+
+\newpage
+%附录
+
+\section{Appendix}
+
+\end{document} 

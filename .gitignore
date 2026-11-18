@@ -1,0 +1,44 @@
+# ---------- LaTeX 中间文件 ----------
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.xdv
+*.bbl
+*.blg
+*.ilg
+*.ind
+*.idx
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+*.loa
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.xdy
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+.codebuddy/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 临时文件 ----------
+*.tmp
+*.bak
